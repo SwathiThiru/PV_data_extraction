@@ -1,0 +1,30 @@
+'Electrical Characteristics With Different Rear Side Power Again (Reference To 430w Front)':
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+'Pmax gain (%)':
+  - '10%'
+  - '20%'
+  - '30%'
+  - '40%'
+  - '50%'
+'Maximum Power (Pmax/W)': 
+  - '633'
+  - '690'
+  - '748'
+  - '805'
+  - '863'
+'Maximum Power Voltage (Vmpp/V)':
+  - '43.14'
+  - '43.14'
+  - '43.14'
+  - '43.14'
+  - '43.14'
+'Maximum Power Current (Impp/A)': 
+  - '14.66'
+  - '16.00'
+  - '17.33'
+  - '18.66'
+  - '20.00'

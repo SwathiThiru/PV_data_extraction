@@ -1,0 +1,24 @@
+'Model': 
+  - ''
+  - 'LG350N1C-V5'
+'Maximum Power (Pmax)':
+  - '[W]'
+  - '350'
+'MPP Voltage (Vmpp)':
+  - '[V]'
+  - '35.3'
+'MPP Current (Impp)':
+  - '[A]'
+  - '9.92'
+'Open Circuit Voltage (Voc, +5%)':
+  - '[V]'
+  - '41.3'
+'Short Circuit Current (Isc,+5%)':
+  - '[A]'
+  - '10.61'
+'Module Efficiency':
+  - '[%]'
+  - '20.4'
+'Power Tolerance':
+  - '[%]'
+  - '0 ~ +3'

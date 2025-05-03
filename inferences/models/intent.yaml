@@ -1,0 +1,43 @@
+electrical:
+  eff:
+    description: "Extract the efficiency percentage / model percentage of the electrical system from the electrical data at Standard Testing Condition/STC."
+  ff:
+    description: "Extract the fill factor/ FF from the electrical data at Standard Testing Condition/STC."
+  impp:
+    description: "Extract the Maximum Power Current -Imp(A) / maximum power current / impp / imp / Current Mpp-Impp(A) / Optimum Operating Current (Imp/A)  from the electrical data at Standard Testing Condition/STC."
+  isc:
+    description: "Extract the Short Circuit Current -Isc(A) / short circuit current / isc / from the electrical data at Standard Testing Condition/STC."
+  pmpp:
+    description: "Extract the Maximum power-pmp(Wp) / pmpp / Pmax / Power Output(Wp) / Rated Power In Watts-Pmax (Wp) / Maximum Power at STC (Pmax/W)  from the electrical data at Standard Testing Condition/STC."
+  vmpp:
+    description: "Extract the maximum power voltage-vmp(V) / Voltage Mpp-Vmpp(V) / vmpp / VMPP / Optimum Operating Voltage (Vmp/V)  from the electrical data at Standard Testing Condition/STC."
+  voc:
+    description: "Extract the Open Circuit Voltage (Voc/V) / open circuit voltage / VOC / Voltage Open Circuit-Voc(V)  from the electrical data at Standard Testing Conditions/STC."
+
+electrical_nmot:
+  eff_nmot:
+    description: "Extract the efficiency percentage of the electrical system from the electrical data at Nominal Module Operating Temperature/NMOT."
+  ff_nmot:
+    description: "Extract the fill factor/ FF from the electrical data at Nominal Module Operating Temperature/NMOT."
+  impp_nmot:
+    description: "Extract the maximum power current/impp/IMPP/ from the electrical data at Nominal Module Operating Temperature/NMOT."
+  isc_nmot:
+    description: "Extract the short circuit current/isc/ISC from the electrical data at Nominal Module Operating Temperature/NMOT."
+  pmpp_nmot:
+    description: "Extract the Maximum power/pmpp/PMPP from the electrical data at Nominal Module Operating Temperature/NMOT."
+  vmpp_nmot:
+    description: "Extract the maximum power voltage/vmpp/VMPP from the electrical data at Nominal Module Operating Temperature/NMOT."
+  voc_nmot:
+    description: "Extract the open circuit voltage/VOC/voc from the electrical data at Nominal Module Operating Temperature/NMOT."
+
+temperature:
+  isc:
+    description: "Extract the temperature coeffecient of isc from the temperature data."
+  pmpp:
+    description: "Extract the temperature coeffecient of pmax from the temperature data."
+  voc:
+    description: "Extract the temperature coeffecient of voc from the temperature data."
+
+mechanical:
+  dim:
+    description: "Extract the dimensions of the module from the mechanical data."

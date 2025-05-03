@@ -1,0 +1,33 @@
+'Rated Power In Watts-Pmax (Wp)': 
+  - '560'
+  - '565'
+  - '570'
+  - '575'
+'Maximum Power Voltage-Vmpp (V)': 
+  - '42.68'
+  - '42.84'
+  - '42.99'
+  - '43.14'
+'Maximum Power Current-Impp (A)':
+  - '13.12'
+  - '13.19'
+  - '13.26'
+  - '13.33'
+'Open Circuit Voltage-Voc (V)':
+  - '50.47'
+  - '50.72'
+  - '50.97'
+  - '51.23'
+'Short Circuit Current-Isc (A)': 
+  - '13.92'
+  - '14.00'
+  - '14.08'
+  - '14.16'
+'Module Efficiency (%)':
+  - "21.67%"
+  - "21.86%"
+  - "22.06%"
+  - "22.25%"
+
+
+

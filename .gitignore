@@ -1,0 +1,4 @@
+inferences/models/best-fasterrcnn-v2.ckpt
+inferences/models/best-fasterrcnn.ckpt
+weights/detection_finetuned_HPO_negatives.pth
+weights/exponentialLR_recognition_with_cannonical_finetuned_v2_model_20.pth

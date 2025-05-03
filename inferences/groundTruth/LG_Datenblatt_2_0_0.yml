@@ -1,0 +1,15 @@
+'Packaging Configuration':
+  - ''
+  - ''
+'Number of Modules per Pallet':
+  - '[EA]'
+  - '25'
+'Number of Modules per 40ft HQ Container':
+  - '[EA]'
+  - '650'
+'Packaging Box Dimensions (Lx W x H)':
+  - '[mm]'
+  - "1,750 x 1,120 x 1,221"
+'Packaging Box Gross Weight':
+  - '[kg]'
+  - '464'

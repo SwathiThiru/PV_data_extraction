@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>5-VDS_1.jpg</filename>
+	<path>S:\23502\2\216_PVM\Aktuell\01_Orga\21631_MAS_TeamModulbewertung\03_Arbeitsordner\Swathi_Thiruvengadam\TATREvaluationDataset\solarModuleDetection\images\5-VDS_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2621</width>
+		<height>3371</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>no object</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>1135</ymin>
+			<xmax>2523</xmax>
+			<ymax>1317</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no object</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1516</xmin>
+			<ymin>2354</ymin>
+			<xmax>2579</xmax>
+			<ymax>2498</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>no object</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1523</xmin>
+			<ymin>1957</ymin>
+			<xmax>1801</xmax>
+			<ymax>2150</ymax>
+		</bndbox>
+	</object>
+</annotation>

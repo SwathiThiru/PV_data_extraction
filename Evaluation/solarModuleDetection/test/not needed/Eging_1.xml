@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Eging_1.jpg</filename>
+	<path>S:\23502\2\216_PVM\Aktuell\01_Orga\21631_MAS_TeamModulbewertung\03_Arbeitsordner\Swathi_Thiruvengadam\TATREvaluationDataset\solarModuleDetection\images\Eging_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2469</width>
+		<height>3378</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>no object</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>169</xmin>
+			<ymin>2438</ymin>
+			<xmax>1414</xmax>
+			<ymax>2860</ymax>
+		</bndbox>
+	</object>
+</annotation>

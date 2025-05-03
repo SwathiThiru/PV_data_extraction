@@ -1,0 +1,30 @@
+'Maximum Power at NMOT (Pmax/W)':
+  - '419.9'
+  - '416.0'
+  - '412.2'
+  - '408.5'
+  - '404.6'
+'Optimum Operating Voltage (Vmp/V)':
+  - '39.94'
+  - '39.79'
+  - '39.64'
+  - '39.49'
+  - '39.33'
+'Optimum Operating Current (Imp/A)': 
+  - '10.51'
+  - '10.46'
+  - '10.40'
+  - '10.34'
+  - '10.29'
+'Open Circuit Voltage (Voc/V)':
+  - '47.46'
+  - '47.32'
+  - '47.18'
+  - '47.04'
+  - '46.89'
+'Short Circuit Current (Isc/A)': 
+  - '11.35'
+  - '11.30'
+  - '11.24'
+  - '11.18'
+  - '11.13'

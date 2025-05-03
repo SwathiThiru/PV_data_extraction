@@ -1,0 +1,31 @@
+'Maximum Power-PMAX (Wp)*': 
+  - '325'
+  - '329'
+  - '333'
+  - '337'
+  - '341'
+'Maximum Power Voltage-Vmp (V)':
+  - '38.2'
+  - '38.5'
+  - '38.8'
+  - '39.0'
+  - '39.1'
+'Maximum Power Current-Imp (A)':
+  - '8.51'
+  - '8.55'
+  - '8.58'
+  - '8.63'
+  - '8.71'
+'Open Circuit Voltage-Voc (V)':
+  - '46.0'
+  - '46.2'
+  - '46.4'
+  - '46.6'
+  - '46.7'
+'Short Circuit Current-Isc (A)':
+  - '9.02'
+  - '9.05'
+  - '9.08'
+  - '9.12'
+  - '9.15'
+

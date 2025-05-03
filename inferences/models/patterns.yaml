@@ -1,0 +1,66 @@
+electrical:
+  eff:
+    series: eff((?!code).)*$|ncell|model\(%\)
+    vals: ([\d.,]+)%?
+  ff:
+    series: ^ff|fillfactor
+    vals: ([\d.,]+)\S
+  impp:
+    series: ^[iI]mp+|^[iI]p+m|([mM]ax\.?(imum)?)?\s?[pP]ower\s?[cC]urrent|currentat\s(max\.?(imum)?)?power|Imp|im(?!um)$
+    vals: ([\d.,]+)\S
+  isc:
+    series: '[\(\[]?[iI]sc[\(\[]?|[sS]hort\s?([cC]ircuit\s?)?([cC]urrent)?|[wW]orking\s?([pP]oint\s?)?([cC]urrent)?'
+    vals: ([\d.,]+)\S
+  pmpp:
+    series: '[pP]max|[pP]mpp|ppm|^pm|^power$|[\(\[][wW]p*[\)\]]|(average|rated|charged)power'
+    vals: ([\d.,]+)\S
+  vmpp:
+    series: ^[uvUV]mp+[/A]?|^[uvV]p+m[/A]?|([mM]ax\.?(imum)?)?\s?[pP]ower\s?[vV]oltage|voltage\s?at\s?(max\.?(imum)?)?\s?power\s?\(?(Vmp[/A]?)?\)?
+    vals: ([\d.,]+)\S
+  voc:
+    series: '[\(\[]?[uUvV]oc[\(\[]?|[oO]pen\s?([cC]ircuit\s?)?([vV]oltage)?|vm\W|circuitvoltage|[wW]orking\s?([pP]oint\s?)?([vV]oltage)?'
+    vals: ([\d.,]+)%?\S
+
+electrical_nmot:
+  eff_nmot: 
+    series: eff((?!code).)*$|ncell|model\(%\)
+    vals: \d[.0-9\-% ]+
+  impp_nmot:
+    series: ^[iI]mp+|^[iI]p+m|([mM]ax\.?(imum)?)?\s?[pP]ower\s?[cC]urrent|currentat\s(max\.?(imum)?)?power|Imp|im(?!um)$
+    vals: ([.\d]+)\S
+  vmpp_nmot: 
+    series: ^[uvUV]mp+[/A]?|^[uvV]p+m[/A]?|([mM]ax\.?(imum)?)?\s?[pP]ower\s?[vV]oltage|voltageat\s(max\.?(imum)?)?power
+    vals: ([.\d]+)\S
+  pmpp_nmot:
+    series: '[pP]max|[pP]mpp|ppm|^pm|^power$|[\(\[][wW]p*[\)\]]|(average|rated|charged)power'
+    vals: ([.\d]+)\S
+  voc_nmot:
+    series: '[\(\[]?[uUvV]oc[\(\[]?|[oO]pen\s?([cC]ircuit\s?)?([vV]oltage)?|vm\W|circuitvoltage|[wW]orking\s?([pP]oint\s?)?([vV]oltage)?'
+    vals: ([.\d]+)\S
+  isc_nmot:
+    series: '[\(\[]?[iI]sc[\(\[]?|[sS]hort\s?([cC]ircuit\s?)?([cC]urrent)?|[wW]orking\s?([pP]oint\s?)?([cC]urrent)?'
+    vals: ([.\d]+)\S
+
+temperature:
+  isc:
+    series: tk\s?(current|isc)|(short\-?circuit)?\-?currenttemperaturecoefficient-?(isc)?|isc\.?temp\.?coef\.?|current[\[\(]?(%\/K|alpha)[\]\)]?|⍺|current|isc
+    vals: (\+|-)?\d+.\d+\s?(%/.)?
+  pmpp:
+    series: tk\s?(power|pmax)|(max\.?-?power|power)temperaturecoefficient(of)?(pmpp|pmax)?|^temperaturecoefficientof(p[m]?ax|p[u]?ax|p[a-z]ax)|(pm|pmax)\.?temp\.?coef\.?|power[\[\(]?(%\/K|gamma)[\]\)]?|power|pmax|γ|δ|pm
+    vals: (\+|-)?\d+.\d+\s?(%/.)?
+  voc:
+    series: tk\s?(voltage|[uv]oc)|(open\-?circuit)?\-?voltagetemperaturecoefficient-?([vu]oc)?|[vu]oc\.?temp\.?coef\.?|voltage[\[\(]?(%\/K|beta)[\]\)]?|voc|ß|voltage
+    vals: (\+|-)?\d+.\d+\s?(%/.)?
+
+mechanical:
+  dim:
+    series: (?i)\b(?:dimensions|external\s+dimension|dimensión|module\s+dimensions?|size\s+of\s+cell)\b[^:]*:\s*([\d,.]+(?:mm)?\s*[*×x]\s*[\d,.]+(?:mm)?\s*[*×x]?\s*[\d,.]*(?:mm)?)
+    vals: ([\d,.]+)
+packaging:
+  pcs_pallet: 
+    series: (?:pcs|pieces|piece|no\.?|number|num(?:ber)?)\s?(?:\/|\*|of)?\s?(?:modules|pcs|pieces|modules|per|stack|box|pallet)\s?(?:per)?\s?(stack|pallet|box)?
+    vals: (\+|-)?\d+.\d+\s?(%/.)?
+  pallet_containter:
+    series: (?:pcs|pieces|piece|no\.?|number|num(?:ber)?)\s?(?:\/|\*|of)?\s?(?:modules|pcs|pieces|modules|per|40(?:ft|’|')?\s?(hq|hc)?\s?(container)?|cabinet|container)\s?(?:per)?\s?(cabinet|container|40(?:ft|’|')?\s?(hq|hc)?\s?(container)?)?
+    vals: (\+|-)?\d+.\d+\s?(%/.?)?
+  

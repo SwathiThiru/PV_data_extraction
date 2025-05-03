@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Haitai_1.jpg</filename>
+	<path>S:\23502\2\216_PVM\Aktuell\01_Orga\21631_MAS_TeamModulbewertung\03_Arbeitsordner\Swathi_Thiruvengadam\TATREvaluationDataset\solarModuleDetection\images\Haitai_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2481</width>
+		<height>3438</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>no object</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1703</xmin>
+			<ymin>2490</ymin>
+			<xmax>2392</xmax>
+			<ymax>2867</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,13 @@
+test/5-VDS_2.xml
+test/Eging_2.xml
+test/Haitai_2.xml
+test/LG_Datenblatt_2.xml
+test/SEG66_1.xml
+test/SEG66_2.xml
+test/SolarWorld_2.xml
+test/SUN-72MD_2.xml
+test/Sunlink_2.xml
+test/SunPower_2.xml
+test/TMseries_2.xml
+test/TOPCon_2.xml
+test/WH144P8_2.xml
